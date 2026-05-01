@@ -8,6 +8,9 @@ on:
 env:
   DOTNET_VERSION: '10.0.x'
 
+permissions:
+  contents: write
+
 jobs:
   ci:
     runs-on: ubuntu-latest
@@ -28,3 +31,27 @@ jobs:
 
       - name: Test
         run: dotnet test --configuration Release --no-build
+  
+  release:
+    needs: ci
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate version
+        run: echo "VERSION=v1.0.${{ github.run_number }}" >> $GITHUB_ENV
+
+      - name: Create tag $VERSION
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git tag $VERSION
+          git push origin $VERSION
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.VERSION }}
+          name: Release ${{ env.VERSION }}
+          generate_release_notes: true

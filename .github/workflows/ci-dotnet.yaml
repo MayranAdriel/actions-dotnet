@@ -9,7 +9,7 @@ env:
   DOTNET_VERSION: '10.0.x'
 
 jobs:
-  build:
+  ci:
     runs-on: ubuntu-latest
 
     steps:

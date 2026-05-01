@@ -1,4 +1,4 @@
-name: Build & Test 🧪
+name: CI
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup .NET 📦
+      - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
@@ -23,8 +23,8 @@ jobs:
       - name: Install dependencies 📂
         run: dotnet restore
 
-      - name: Build 🧱
+      - name: Build
         run: dotnet build --configuration Release --no-restore
 
-      - name: Test 🧪
+      - name: Test
         run: dotnet test --configuration Release --no-build

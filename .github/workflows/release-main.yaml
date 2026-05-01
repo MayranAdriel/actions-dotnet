@@ -1,0 +1,35 @@
+name: Release ${{ github.run_number }}
+
+on:
+  workflow_run:
+    workflows: ["CI"]
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate version
+        run: echo "VERSION=v1.0.${{ github.run_number }}" >> $GITHUB_ENV
+
+      - name: Create tag
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git tag $VERSION
+          git push origin $VERSION
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.VERSION }}
+          name: Release ${{ env.VERSION }}
+          generate_release_notes: true

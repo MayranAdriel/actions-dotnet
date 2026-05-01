@@ -37,7 +37,7 @@ namespace EventScheduler.Tests.Application.Services.Events
         }
 
         [Fact]
-        public void WhenServiceIsCalled_ThenReturnEventsCorrectly()
+        public void ShouldFail()
         {
             var expectedResult = 222;
 

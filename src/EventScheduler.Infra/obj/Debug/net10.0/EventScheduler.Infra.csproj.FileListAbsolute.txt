@@ -1,0 +1,12 @@
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Infra\bin\Debug\net10.0\EventScheduler.Infra.deps.json
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Infra\bin\Debug\net10.0\EventScheduler.Infra.dll
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Infra\bin\Debug\net10.0\EventScheduler.Infra.pdb
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Infra\obj\Debug\net10.0\EventScheduler.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Infra\obj\Debug\net10.0\EventScheduler.Infra.AssemblyInfoInputs.cache
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Infra\obj\Debug\net10.0\EventScheduler.Infra.AssemblyInfo.cs
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Infra\obj\Debug\net10.0\EventScheduler.Infra.csproj.CoreCompileInputs.cache
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Infra\obj\Debug\net10.0\EventScheduler.Infra.sourcelink.json
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Infra\obj\Debug\net10.0\EventScheduler.Infra.dll
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Infra\obj\Debug\net10.0\refint\EventScheduler.Infra.dll
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Infra\obj\Debug\net10.0\EventScheduler.Infra.pdb
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Infra\obj\Debug\net10.0\ref\EventScheduler.Infra.dll

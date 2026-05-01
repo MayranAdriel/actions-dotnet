@@ -1,0 +1,16 @@
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\bin\Debug\net10.0\EventScheduler.Application.deps.json
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\bin\Debug\net10.0\EventScheduler.Application.dll
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\bin\Debug\net10.0\EventScheduler.Application.pdb
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\bin\Debug\net10.0\EventScheduler.Domain.dll
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\bin\Debug\net10.0\EventScheduler.Domain.pdb
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\obj\Debug\net10.0\EventScheduler.Application.csproj.AssemblyReference.cache
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\obj\Debug\net10.0\EventScheduler.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\obj\Debug\net10.0\EventScheduler.Application.AssemblyInfoInputs.cache
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\obj\Debug\net10.0\EventScheduler.Application.AssemblyInfo.cs
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\obj\Debug\net10.0\EventScheduler.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\obj\Debug\net10.0\EventScheduler.Application.sourcelink.json
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\obj\Debug\net10.0\EventSch.A0F2EC80.Up2Date
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\obj\Debug\net10.0\EventScheduler.Application.dll
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\obj\Debug\net10.0\refint\EventScheduler.Application.dll
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\obj\Debug\net10.0\EventScheduler.Application.pdb
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Application\obj\Debug\net10.0\ref\EventScheduler.Application.dll

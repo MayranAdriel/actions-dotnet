@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EventScheduler.API/EventScheduler.API.csproj" />
+    <Project Path="src/EventScheduler.Application/EventScheduler.Application.csproj" />
+    <Project Path="src/EventScheduler.Domain/EventScheduler.Domain.csproj" />
+    <Project Path="src/EventScheduler.Infra/EventScheduler.Infra.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="tests/EventScheduler.Tests/EventScheduler.Tests.csproj" />
+  </Folder>
+</Solution>

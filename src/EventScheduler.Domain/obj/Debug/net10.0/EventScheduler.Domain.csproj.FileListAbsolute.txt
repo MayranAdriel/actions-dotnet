@@ -1,0 +1,12 @@
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Domain\bin\Debug\net10.0\EventScheduler.Domain.deps.json
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Domain\bin\Debug\net10.0\EventScheduler.Domain.dll
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Domain\bin\Debug\net10.0\EventScheduler.Domain.pdb
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Domain\obj\Debug\net10.0\EventScheduler.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Domain\obj\Debug\net10.0\EventScheduler.Domain.AssemblyInfoInputs.cache
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Domain\obj\Debug\net10.0\EventScheduler.Domain.AssemblyInfo.cs
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Domain\obj\Debug\net10.0\EventScheduler.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Domain\obj\Debug\net10.0\EventScheduler.Domain.sourcelink.json
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Domain\obj\Debug\net10.0\EventScheduler.Domain.dll
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Domain\obj\Debug\net10.0\refint\EventScheduler.Domain.dll
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Domain\obj\Debug\net10.0\EventScheduler.Domain.pdb
+C:\Projetos\.NET\Pipelines\EventScheduler\src\EventScheduler.Domain\obj\Debug\net10.0\ref\EventScheduler.Domain.dll

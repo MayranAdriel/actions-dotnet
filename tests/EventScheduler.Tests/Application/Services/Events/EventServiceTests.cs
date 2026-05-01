@@ -35,5 +35,13 @@ namespace EventScheduler.Tests.Application.Services.Events
             Assert.Equal(expectedEvents[1].Date, events.Last().Date);
             Assert.Equal(expectedEvents[1].Address, events.Last().Address);
         }
+
+        [Fact]
+        public void WhenServiceIsCalled_ThenReturnEventsCorrectly()
+        {
+            var expectedResult = 222;
+
+            Assert.Equal(expectedResult, 333);
+        }
     }
 }

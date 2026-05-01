@@ -39,17 +39,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate version
+      - name: Create Version v1.0.${{ github.run_number }}
         run: echo "VERSION=v1.0.${{ github.run_number }}" >> $GITHUB_ENV
 
-      - name: Create tag $VERSION
+      - name: Create Tag v1.0.${{ github.run_number }}
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git tag $VERSION
           git push origin $VERSION
 
-      - name: Create release
+      - name: Create Release v1.0.${{ github.run_number }}
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.VERSION }}

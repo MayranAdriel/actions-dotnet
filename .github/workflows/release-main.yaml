@@ -16,6 +16,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
 
       - name: Generate version
         run: echo "VERSION=v1.0.${{ github.run_number }}" >> $GITHUB_ENV

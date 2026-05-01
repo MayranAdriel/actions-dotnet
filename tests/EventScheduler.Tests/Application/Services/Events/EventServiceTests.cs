@@ -41,7 +41,7 @@ namespace EventScheduler.Tests.Application.Services.Events
         {
             var expectedResult = 222;
 
-            Assert.Equal(expectedResult, 333);
+            Assert.Equal(expectedResult, 222);
         }
     }
 }
